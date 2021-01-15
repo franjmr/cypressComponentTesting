@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "baseUrl": "../node_modules",
+      "target": "ES2019",
+      "lib": ["ES2019", "dom"],
+      "types": ["cypress", "@nuxt/types", "@nuxtjs/vuetify"],
+      "esModuleInterop": true,
+    },
+    "include": [
+      "**/*.ts"
+    ]
+  }

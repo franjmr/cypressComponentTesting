@@ -1,0 +1,10 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "baseUrl": "http://localhost:3000",
+    "ignoreTestFiles": [
+        "**/examples/**/*.js"
+     ],
+     "video": false,
+     "experimentalComponentTesting": true,
+     "componentFolder": "components"
+}

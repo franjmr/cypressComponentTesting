@@ -1,0 +1,27 @@
+{
+  "name": "cypressComponentTesting",
+  "version": "0.1.1",
+  "description": "Cypress Component Testing",
+  "author": "fjmr",
+  "private": true,
+  "_type": "module",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:component:ta": "cypress run --spec 'components/ZFilterList/__tests__/*.cypress.spec.ts' --browser chrome",
+    "cypress:component:workflow": "cypress run --spec 'components/workflow/__tests__/ZTodoList.smoke.cypress.spec.ts' --browser chrome",
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.1.2",
+    "cypress": "^6.1.0",
+    "cypress-jest-adapter": "^0.1.1",
+    "@cypress/vue": "^1.1.0-alpha.2",
+    "@cypress/webpack-preprocessor": "5.5.0",
+    "cypress-nuxt": "1.3.1",
+    "vue-loader": "15.9.6",
+    "vue-template-compiler": "2.6.12",
+    "css-loader": "5.0.1"
+  },
+  "dependencies": {
+  }
+}
