@@ -1,6 +1,9 @@
 # Cypress Component Testing
 Cypress Component Testing uses framework-specific libraries on top of Cypress Test Runner to create a browser-based testing and isolated development environment.
 
+## About this repository
+This is not a complete Vue project, they are examples of unit tests to be applied on an existing Vue project.
+
 ## What is Browser-based Component Testing?
 Browser-based component testing with Cypress creates a tight development cycle between browser and test framework, when building the components and applications.
 
